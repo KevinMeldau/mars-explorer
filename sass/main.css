@@ -106,6 +106,7 @@ a:hover {
   grid-column: 1 / -1;
   height: 300px;
   border: 3px solid var(--clr-light);
+  background-image: url("https://apod.nasa.gov/apod/image/2103/Helicopter_Mars2020_1080.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center center;
