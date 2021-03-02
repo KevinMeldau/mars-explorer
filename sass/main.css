@@ -36,10 +36,9 @@
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
-  background-image: url(../img/ruslan-bardash-b0FxvAf7g-o-unsplash.jpg);
-  background-size: 100%;
+  background-image: url(../img/mars.jpg);
+  background-size: 140%;
   background-repeat: no-repeat;
-  background-position: center center;
   color: var(--clr-light);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -62,6 +61,7 @@ h3 {
 
 a {
   color: var(--clr-accent);
+  cursor: pointer;
 }
 
 a:hover {
@@ -101,14 +101,13 @@ a:hover {
 
 .mars-img-container {
   grid-column: 1 / -1;
-  width: 100%;
-  height: 200px;
+  height: 300px;
+  border: 3px solid var(--clr-light);
+  background-image: url(../img/NASA-Mars-Perseverance.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
   background-color: white;
-}
-
-.mars-img-container .mars-image {
-  background-color: white;
-  max-width: 50%;
 }
 
 .header-container {
@@ -120,16 +119,20 @@ a:hover {
 }
 
 .header-container .text-title {
-  font-size: var(--fs-h1);
   font-weight: var(--fw-light);
   letter-spacing: 2px;
 }
 
 .header-container .text-title h1 {
+  font-size: var(--fs-h1);
   color: var(--clr-light);
+  margin-bottom: 15px;
+  font-weight: var(--fw-semi);
+}
+
+.header-container .text-title h1 span {
   font-weight: var(--fw-light);
   text-transform: uppercase;
-  margin-bottom: 5px;
 }
 
 .header-container .text-title p {
@@ -497,7 +500,7 @@ a:hover {
   }
   .mars-current-weather {
     padding: 2em;
-    margin: 4em 4em 0 4em;
+    margin: 2em 4em 0 4em;
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
     grid-gap: 2em;
