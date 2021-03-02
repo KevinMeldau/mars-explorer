@@ -10,8 +10,10 @@ function getImageOfTheDay() {
 				'background-image',
 				'url(' + data.url + ')'
 			);
+			console.log('Mars image');
 		})
 		.catch((error) => {
 			console.log('ERROR: ', error);
 		});
 }
+getImageOfTheDay();
