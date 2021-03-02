@@ -50,7 +50,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 50px 0;
+  margin: 0 50px 50px 0;
 }
 
 h1,
@@ -75,6 +75,7 @@ a:hover {
   color: var(--clr-accent);
   letter-spacing: 2px;
   grid-column: 1 / -1;
+  margin: 0;
 }
 
 .section-title {
@@ -94,7 +95,7 @@ a:hover {
 }
 
 .mars-current-weather {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   max-width: 1000px;
   margin: 1em;
 }
@@ -489,9 +490,6 @@ a:hover {
     --fs-h2: 2.25rem;
     --fs-body: 1rem;
     --fs-xl: 4.5rem;
-  }
-  body {
-    height: 100vh;
   }
   .date {
     -ms-grid-column: 1;
