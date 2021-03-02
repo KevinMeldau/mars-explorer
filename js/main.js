@@ -24,7 +24,8 @@ function getImageOfTheDay() {
 		})
 		.then((data) => {
 			const imageElement = $('#mars-img-container');
-			imageElement.style.backgroundImage = 'url(data.url)';
+			imageElement.style.backgroundImage = `url(${data.url})`;
+			console.log(data.url);
 		})
 		.catch((error) => {
 			console.log('ERROR: ', error);
