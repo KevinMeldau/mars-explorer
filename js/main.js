@@ -20,7 +20,7 @@ getImageOfTheDay();
 
 // ------------------------------------- MODAL ------------------------------------- //
 // Modal functionality
-var modal = document.getElementById('marsModal');
+const modal = document.getElementById('marsModal');
 
 // Get the button that opens the modal
 var btn = document.getElementById('modalBtn');
@@ -44,3 +44,5 @@ window.onclick = function (event) {
 		modal.style.display = 'none';
 	}
 };
+
+// ------------------------------------- END MODAL ------------------------------------- //
