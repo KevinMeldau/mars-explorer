@@ -402,7 +402,7 @@ a:hover {
 @media (max-width: 900px) {
   .unit {
     position: absolute;
-    left: 3em;
+    right: 2em;
     top: 3em;
   }
 }
