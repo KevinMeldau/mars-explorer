@@ -15,7 +15,6 @@ function getImageOfTheDay() {
 				'background-image',
 				'url(' + data.url + ')'
 			);
-			console.log('Mars image');
 		})
 		// This is just a catch so that if anything goes wrong, there is something to tell us in the console
 		.catch((error) => {
