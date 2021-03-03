@@ -128,7 +128,7 @@ a:hover {
   font-size: var(--fs-h2);
   font-weight: var(--fw-bold);
   margin: 0;
-  margin-bottom: 0.25rem;
+  margin-bottom: 1rem;
 }
 
 .section-title--date {

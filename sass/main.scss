@@ -105,7 +105,7 @@ a {
 	font-size: var(--fs-h2);
 	font-weight: var(--fw-bold);
 	margin: 0;
-	margin-bottom: 0.25rem;
+	margin-bottom: 1rem;
 }
 
 .section-title--date {
@@ -173,7 +173,6 @@ a {
 
 	.text-title {
 		font-weight: var(--fw-light);
-		// letter-spacing: 2px;
 		h1 {
 			font-size: var(--fs-h1);
 			color: var(--clr-light);
