@@ -54,6 +54,14 @@
 		<div class="mars-current-weather">
 			<div class="mars-img-container" id="mars-img-container"></div>
 
+			<div class="unit">
+				<label for="cel">°C</label>
+				<input type="radio" id="cel" name="unit" checked />
+
+				<button class="unit__toggle" data-unit-toggle></button>
+				<label for="fah">°F</label>
+				<input type="radio" id="fah" name="unit" />
+			</div>
 			<h2 class="main-title">Latest weather at Elysium Planitia</h2>
 
 			<div class="date">
@@ -61,7 +69,7 @@
 					Sol
 					<span data-current-sol>375</span>
 				</h2>
-				<p class="date__day" data-current-date></p>
+				<p class="date__day" data-current-date>September 17th</p>
 			</div>
 
 			<div class="temp">
@@ -114,14 +122,14 @@
 				</p>
 			</div>
 
-			<div class="unit">
+			<!-- <div class="unit">
 				<label for="cel">°C</label>
 				<input type="radio" id="cel" name="unit" checked />
 
 				<button class="unit__toggle" data-unit-toggle></button>
 				<label for="fah">°F</label>
 				<input type="radio" id="fah" name="unit" />
-			</div>
+			</div> -->
 		</div>
 	</body>
 </html>
