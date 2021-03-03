@@ -59,6 +59,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	background-attachment: fixed;
 	background-color: black;
 }
 
@@ -78,6 +79,13 @@ a {
 	}
 }
 
+p,
+a {
+	@media (max-width: 600px) {
+		font-size: 1.5rem;
+	}
+}
+
 .main-title {
 	font-size: var(--fs-h1);
 	font-weight: var(--fw-light);
@@ -88,6 +96,8 @@ a {
 	@media (max-width: 600px) {
 		margin: 2rem 0 1rem;
 		letter-spacing: 1px;
+		line-height: 1.5;
+		font-size: 2rem;
 	}
 }
 
@@ -134,7 +144,6 @@ a {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: black;
-
 	@media (max-width: 600px) {
 		height: 16rem;
 	}
@@ -173,6 +182,10 @@ a {
 			span {
 				font-weight: var(--fw-light);
 				text-transform: uppercase;
+			}
+			@media (max-width: 600px) {
+				font-size: 3rem;
+				line-height: 1.2em;
 			}
 		}
 		p {

@@ -79,6 +79,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-attachment: fixed;
   background-color: black;
 }
 
@@ -98,6 +99,13 @@ a:hover {
   color: var(--clr-accent-dark);
 }
 
+@media (max-width: 600px) {
+  p,
+  a {
+    font-size: 1.5rem;
+  }
+}
+
 .main-title {
   font-size: var(--fs-h1);
   font-weight: var(--fw-light);
@@ -111,6 +119,8 @@ a:hover {
   .main-title {
     margin: 2rem 0 1rem;
     letter-spacing: 1px;
+    line-height: 1.5;
+    font-size: 2rem;
   }
 }
 
@@ -232,6 +242,13 @@ a:hover {
 .header-container .text-title h1 span {
   font-weight: var(--fw-light);
   text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+  .header-container .text-title h1 {
+    font-size: 3rem;
+    line-height: 1.2em;
+  }
 }
 
 .header-container .text-title p {
