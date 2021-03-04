@@ -62,9 +62,22 @@ const d = new Date(),
 	(month[11] = 'December')
 
 const month_name = month[d.getMonth()],
-	day_of_month = d.getDate(),
 	dayOfMonthElement = document.getElementById('current_day'),
-	currentMonthElement = document.getElementById('current_month')
+	currentMonthElement = document.getElementById('current_month');
+	var day_of_month = d.getDate();
+	if(day_of_month % 10 == 1){
+		day_of_month = day_of_month + "st";
+	}
+	else if(day_of_month % 10 == 2){
+		day_of_month = day_of_month + "nd";
+	}
+	else if(day_of_month % 10 == 3){
+		day_of_month = day_of_month + "rd";
+	}
+	else{
+		day_of_month = day_of_month + "th";
+	}
+	
 !(function () {
 	;(currentMonthElement.innerHTML = month_name),
 		(dayOfMonthElement.innerHTML = day_of_month)
