@@ -45,8 +45,9 @@ function getWeather() {
 
 // ------------------------------------- Current Date - Earth ------------------------------------- //
 
-var d = new Date(),
+const d = new Date(),
 	month = new Array()
+
 ;(month[0] = 'January'),
 	(month[1] = 'February'),
 	(month[2] = 'March'),
@@ -59,16 +60,14 @@ var d = new Date(),
 	(month[9] = 'October'),
 	(month[10] = 'November'),
 	(month[11] = 'December')
-var month_name = month[d.getMonth()],
+
+const month_name = month[d.getMonth()],
 	day_of_month = d.getDate(),
-	current_year = d.getFullYear(),
 	dayOfMonthElement = document.getElementById('current_day'),
-	currentMonthElement = document.getElementById('current_month'),
-	currentYearElement = document.getElementById('current_year')
+	currentMonthElement = document.getElementById('current_month')
 !(function () {
 	;(currentMonthElement.innerHTML = month_name),
-		(dayOfMonthElement.innerHTML = day_of_month),
-		(currentYearElement.innerHTML = current_year)
+		(dayOfMonthElement.innerHTML = day_of_month)
 })()
 
 // ------------------------------------- End Current Date - Earth ------------------------------------- //
