@@ -28,25 +28,25 @@ html {
 
 @media (max-width: 800px) {
   html {
-    font-size: 15px;
+    font-size: 0.9em;
   }
 }
 
 @media (max-width: 600px) {
   html {
-    font-size: 14px;
+    font-size: 0.9em;
   }
 }
 
 @media (max-width: 380px) {
   html {
-    font-size: 12px;
+    font-size: 0.8em;
   }
 }
 
 @media (max-width: 330px) {
   html {
-    font-size: 10px;
+    font-size: 0.6em;
   }
 }
 
@@ -171,6 +171,7 @@ a:hover {
   grid-column: 1 / -1;
   height: 18.75rem;
   border: 3px solid var(--clr-light);
+  background-image: url("https://apod.nasa.gov/apod/image/2103/Helicopter_Mars2020_1080.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
