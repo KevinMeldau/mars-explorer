@@ -14,7 +14,7 @@
 2. The site is fully responsive
 
 ### Description
-The site is pulling in two [API's from Nasa](https://api.nasa.gov/), APOD and Insight.
+The site is pulling in data from two [API's from Nasa](https://api.nasa.gov/), APOD and Insight.
 
 One of the most popular websites at NASA is the [Astronomy Picture of the Day](https://apod.nasa.gov/apod/astropix.html). In fact, this website is one of the most popular websites across all federal agencies.
 
