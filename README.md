@@ -5,6 +5,8 @@ The site is pulling in two [API's from Nasa](https://api.nasa.gov/), APOD and In
 
 One of the most popular websites at NASA is the [Astronomy Picture of the Day](https://apod.nasa.gov/apod/astropix.html). In fact, this website is one of the most popular websites across all federal agencies.
 
+[NASA’s InSight Mars lander](https://mars.nasa.gov/insight/weather/) takes continuous weather measurements (temperature, wind, pressure) on the surface of Mars at Elysium Planitia, a flat, smooth plain near Mars’ equator.
+
 ### The APOD API
 **Example image**
 ![Nasa image if the day example image](img/apod.jpg)
