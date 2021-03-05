@@ -1,6 +1,17 @@
 # Mars Explorer
 
-**live site** – https://mars-explorer.vercel.app/
+**Live site** – https://mars-explorer.vercel.app/
+
+**This site pulls in the following information:**
+
+1. The current [Sol on Mars](https://en.wikipedia.org/wiki/Sol_(day_on_Mars))
+2. The current Atmospheric Pressure (Pascals) at Elysium Planitia
+3. The wind direction and speed at Elysium Planitia
+
+**Added extra:**
+
+1. [Video](https://youtu.be/Flbhk1KHHJw) taken from the Rover on the surface of Mars
+2. The site is fully responsive
 
 ### Description
 The site is pulling in two [API's from Nasa](https://api.nasa.gov/), APOD and Insight.
@@ -30,9 +41,3 @@ One of the most popular websites at NASA is the [Astronomy Picture of the Day](h
 
 **Example query**
 `https://api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0`
-
-** *This section pulls in the following information:* **
-
-1. The current [Sol on Mars](https://en.wikipedia.org/wiki/Sol_(day_on_Mars))
-2. The current Atmospheric Pressure (Pascals) at Elysium Planitia
-3. The wind direction and speed at Elysium Planitia
