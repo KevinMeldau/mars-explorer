@@ -5,12 +5,12 @@
 **This site pulls in the following information:**
 
 1. The current [Sol on Mars](https://en.wikipedia.org/wiki/Sol_(day_on_Mars))
-2. The current Atmospheric Pressure (Pascals) at Elysium Planitia
+2. The current Atmospheric Pressure (Pascals) at [Elysium Planitia](https://youtu.be/4zlF0hHuM84)
 3. The wind direction and speed at Elysium Planitia
 
-**Added extra:**
+**Added extras:**
 
-1. [Video](https://youtu.be/Flbhk1KHHJw) taken from the Rover on the surface of Mars
+1. Modal with [Video](https://youtu.be/Flbhk1KHHJw) taken from the Rover on the surface of Mars
 2. The site is fully responsive
 
 ### Description
