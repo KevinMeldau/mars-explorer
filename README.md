@@ -5,12 +5,12 @@
 **This site pulls in the following information:**
 
 1. The current [Sol on Mars](https://en.wikipedia.org/wiki/Sol_(day_on_Mars))
-2. The current Atmospheric Pressure (Pascals) at [Elysium Planitia](https://youtu.be/4zlF0hHuM84)
+2. The current atmospheric pressure (Pascals) at [Elysium Planitia](https://youtu.be/4zlF0hHuM84)
 3. The wind direction and speed at Elysium Planitia
 
 **Added extras:**
 
-1. Modal with [Video](https://youtu.be/Flbhk1KHHJw) taken from the Rover on the surface of Mars
+1. Modal with [video](https://youtu.be/Flbhk1KHHJw) taken from the Rover on the surface of Mars at Elysium Planitia
 2. The site is fully responsive
 
 ### Description
@@ -31,6 +31,8 @@ One of the most popular websites at NASA is the [Astronomy Picture of the Day](h
 **Example query**
 `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`
 
+![Example query image - APOD](img/example_api_apod.jpg)
+
 ### The Insight API
 **Example image**
 
@@ -41,3 +43,5 @@ One of the most popular websites at NASA is the [Astronomy Picture of the Day](h
 
 **Example query**
 `https://api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0`
+
+![Example query image - Insight](img/example_api_insight.jpg)
