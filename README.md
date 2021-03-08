@@ -4,9 +4,10 @@
 
 **This site pulls in the following information:**
 
-1. The current [Sol on Mars](https://en.wikipedia.org/wiki/Sol_(day_on_Mars))
-2. The current atmospheric pressure (Pascals) at [Elysium Planitia](https://youtu.be/4zlF0hHuM84)
-3. The wind direction and speed at Elysium Planitia
+1. An image-of-the-day taken by Nasa
+2. The current [Sol on Mars](https://en.wikipedia.org/wiki/Sol_(day_on_Mars))
+3. The current atmospheric pressure (Pascals) at [Elysium Planitia](https://youtu.be/4zlF0hHuM84)
+4. The wind direction and speed at Elysium Planitia
 
 **Added extras:**
 
